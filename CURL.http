@@ -1,0 +1,15 @@
+### GET request to example server
+GET http://localhost:8080/kategori
+###
+
+POST localhost:8080/kategori
+Content-Type: application/json
+
+{
+  "name": "tester",
+  "symbol": "dator",
+  "description": "en bild på en dator"
+}
+
+###
+GET localhost:8080/location
